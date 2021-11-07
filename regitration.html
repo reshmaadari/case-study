@@ -131,7 +131,7 @@
     }
     function addfun() {
         add = document.getElementById("addr").value;
-        var test4 = /^[a-zA-Z0-9\s\W]{2,150}$/g;
+        var test4 = /^[a-zA-Z0-9\s\W]{50,150}$/g;
         var valid4 = test4.test(add);
         if (valid4 == true) {
             document.getElementById("hi5").innerHTML = "";
